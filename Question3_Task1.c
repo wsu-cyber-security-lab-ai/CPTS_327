@@ -3,7 +3,7 @@
 
 void vulnerable_function(char *user_input) {
     char buffer[32];
-    strcpy(buffer, user_input);  // Potential buffer overflow!
+    strcpy(buffer, user_input);   
     printf("Received: %s\n", buffer);
 }
 
